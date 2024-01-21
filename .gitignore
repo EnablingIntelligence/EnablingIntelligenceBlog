@@ -1,1 +1,8 @@
 .idea
+.yarn/cache
+.yarn/unplugged
+.yarn/install-state.gz
+.next
+.contentlayer
+node_modules
+yarn-error.log
