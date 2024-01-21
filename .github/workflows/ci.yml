@@ -15,7 +15,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: ./
-        run: npm install
+        run: yarn install
 
       - name: Run eslint
         working-directory: ./
