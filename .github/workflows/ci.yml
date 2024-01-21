@@ -1,0 +1,22 @@
+name: CI-Pipeline
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  eslint:
+    name: Run eslint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        working-directory: ./
+        run: npm install
+
+      - name: Run eslint
+        working-directory: ./
+        run: yarn lint

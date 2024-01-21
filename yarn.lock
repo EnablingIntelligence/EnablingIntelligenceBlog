@@ -2243,9 +2243,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/eslintrc@npm:^2.1.3":
-  version: 2.1.3
-  resolution: "@eslint/eslintrc@npm:2.1.3"
+"@eslint/eslintrc@npm:^2.1.4":
+  version: 2.1.4
+  resolution: "@eslint/eslintrc@npm:2.1.4"
   dependencies:
     ajv: ^6.12.4
     debug: ^4.3.2
@@ -2256,14 +2256,14 @@ __metadata:
     js-yaml: ^4.1.0
     minimatch: ^3.1.2
     strip-json-comments: ^3.1.1
-  checksum: 5c6c3878192fe0ddffa9aff08b4e2f3bcc8f1c10d6449b7295a5f58b662019896deabfc19890455ffd7e60a5bd28d25d0eaefb2f78b2d230aae3879af92b89e5
+  checksum: 10957c7592b20ca0089262d8c2a8accbad14b4f6507e35416c32ee6b4dbf9cad67dfb77096bbd405405e9ada2b107f3797fe94362e1c55e0b09d6e90dd149127
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:8.54.0":
-  version: 8.54.0
-  resolution: "@eslint/js@npm:8.54.0"
-  checksum: 6d88a6f711ef0133566b5340e3178a178fbb297585766460f195d0a9db85688f1e5cf8559fd5748aeb3131e2096c66595b323d8edab22df015acda68f1ebde92
+"@eslint/js@npm:8.56.0":
+  version: 8.56.0
+  resolution: "@eslint/js@npm:8.56.0"
+  checksum: 5804130574ef810207bdf321c265437814e7a26f4e6fac9b496de3206afd52f533e09ec002a3be06cd9adcc9da63e727f1883938e663c4e4751c007d5b58e539
   languageName: node
   linkType: hard
 
@@ -3265,6 +3265,15 @@ __metadata:
   version: 0.7.34
   resolution: "@types/ms@npm:0.7.34"
   checksum: f38d36e7b6edecd9badc9cf50474159e9da5fa6965a75186cceaf883278611b9df6669dc3a3cc122b7938d317b68a9e3d573d316fcb35d1be47ec9e468c6bd8a
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:20.11.5":
+  version: 20.11.5
+  resolution: "@types/node@npm:20.11.5"
+  dependencies:
+    undici-types: ~5.26.4
+  checksum: a542727de1334ae20a3ca034b0ecf4b464a57ca01efc4f9cf43bd9ab93896125ab3c2de060ecd8f6ae23b86c6bf3463f681b643e69c032c6a662d376c98a6092
   languageName: node
   linkType: hard
 
@@ -4836,6 +4845,58 @@ __metadata:
   languageName: node
   linkType: hard
 
+"enabling-intelligence-blog@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "enabling-intelligence-blog@workspace:."
+  dependencies:
+    "@next/bundle-analyzer": 14.0.3
+    "@svgr/webpack": ^8.0.1
+    "@tailwindcss/forms": ^0.5.4
+    "@tailwindcss/typography": ^0.5.9
+    "@types/mdx": ^2.0.5
+    "@types/node": 20.11.5
+    "@types/react": ^18.2.14
+    "@typescript-eslint/eslint-plugin": ^6.1.0
+    "@typescript-eslint/parser": ^6.1.0
+    autoprefixer: ^10.4.13
+    contentlayer: 0.3.4
+    cross-env: ^7.0.3
+    esbuild: 0.18.11
+    eslint: ^8.56.0
+    eslint-config-next: 14.0.3
+    eslint-config-prettier: ^8.8.0
+    eslint-plugin-jsx-a11y: ^6.8.0
+    eslint-plugin-prettier: ^5.0.0
+    github-slugger: ^1.4.0
+    gray-matter: ^4.0.2
+    husky: ^8.0.0
+    image-size: 1.0.0
+    lint-staged: ^13.0.0
+    next: 14.0.3
+    next-contentlayer: 0.3.4
+    next-themes: ^0.2.1
+    pliny: 0.1.6
+    postcss: ^8.4.24
+    prettier: ^3.0.0
+    prettier-plugin-tailwindcss: ^0.5.11
+    react: 18.2.0
+    react-dom: 18.2.0
+    reading-time: 1.5.0
+    rehype-autolink-headings: ^6.1.0
+    rehype-citation: ^1.0.2
+    rehype-katex: ^6.0.3
+    rehype-preset-minify: 6.0.0
+    rehype-prism-plus: ^1.6.0
+    rehype-slug: ^5.1.0
+    remark: ^14.0.2
+    remark-gfm: ^3.0.1
+    remark-math: ^5.1.1
+    tailwindcss: ^3.3.3
+    typescript: ^5.1.3
+    unist-util-visit: ^4.1.0
+  languageName: unknown
+  linkType: soft
+
 "encoding@npm:^0.1.13":
   version: 0.1.13
   resolution: "encoding@npm:0.1.13"
@@ -5269,7 +5330,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jsx-a11y@npm:^6.7.1":
+"eslint-plugin-jsx-a11y@npm:^6.7.1, eslint-plugin-jsx-a11y@npm:^6.8.0":
   version: 6.8.0
   resolution: "eslint-plugin-jsx-a11y@npm:6.8.0"
   dependencies:
@@ -5366,14 +5427,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.45.0":
-  version: 8.54.0
-  resolution: "eslint@npm:8.54.0"
+"eslint@npm:^8.56.0":
+  version: 8.56.0
+  resolution: "eslint@npm:8.56.0"
   dependencies:
     "@eslint-community/eslint-utils": ^4.2.0
     "@eslint-community/regexpp": ^4.6.1
-    "@eslint/eslintrc": ^2.1.3
-    "@eslint/js": 8.54.0
+    "@eslint/eslintrc": ^2.1.4
+    "@eslint/js": 8.56.0
     "@humanwhocodes/config-array": ^0.11.13
     "@humanwhocodes/module-importer": ^1.0.1
     "@nodelib/fs.walk": ^1.2.8
@@ -5410,7 +5471,7 @@ __metadata:
     text-table: ^0.2.0
   bin:
     eslint: bin/eslint.js
-  checksum: 7e876e9da2a18a017271cf3733d05a3dfbbe469272d75753408c6ea5b1646c71c6bb18cb91e10ca930144c32c1ce3701e222f1ae6784a3975a69f8f8aa68e49f
+  checksum: 883436d1e809b4a25d9eb03d42f584b84c408dbac28b0019f6ea07b5177940bf3cca86208f749a6a1e0039b63e085ee47aca1236c30721e91f0deef5cc5a5136
   languageName: node
   linkType: hard
 
@@ -9318,16 +9379,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-tailwindcss@npm:^0.4.1":
-  version: 0.4.1
-  resolution: "prettier-plugin-tailwindcss@npm:0.4.1"
+"prettier-plugin-tailwindcss@npm:^0.5.11":
+  version: 0.5.11
+  resolution: "prettier-plugin-tailwindcss@npm:0.5.11"
   peerDependencies:
     "@ianvs/prettier-plugin-sort-imports": "*"
     "@prettier/plugin-pug": "*"
     "@shopify/prettier-plugin-liquid": "*"
-    "@shufo/prettier-plugin-blade": "*"
     "@trivago/prettier-plugin-sort-imports": "*"
-    prettier: ^2.2 || ^3.0
+    prettier: ^3.0
     prettier-plugin-astro: "*"
     prettier-plugin-css-order: "*"
     prettier-plugin-import-sort: "*"
@@ -9337,15 +9397,12 @@ __metadata:
     prettier-plugin-organize-imports: "*"
     prettier-plugin-style-order: "*"
     prettier-plugin-svelte: "*"
-    prettier-plugin-twig-melody: "*"
   peerDependenciesMeta:
     "@ianvs/prettier-plugin-sort-imports":
       optional: true
     "@prettier/plugin-pug":
       optional: true
     "@shopify/prettier-plugin-liquid":
-      optional: true
-    "@shufo/prettier-plugin-blade":
       optional: true
     "@trivago/prettier-plugin-sort-imports":
       optional: true
@@ -9369,7 +9426,7 @@ __metadata:
       optional: true
     prettier-plugin-twig-melody:
       optional: true
-  checksum: 9bdf3b7c270cc544f6bc38bbb869d3a97afc93de5005eee7272a36f374488731349c9362d2bbe4c83bd2a14b8a7c96cd25b9b682d1bea6dccc5bf08b2d02096c
+  checksum: 450646db10dbcec76fe6be7bfc85e2e3c6bd1a6c9026637fc9c7f9a0882d8adf6b6fb589be6d24e6a4868772d44b55278a3a39760aa9feee2cf281db9215c0f6
   languageName: node
   linkType: hard
 
@@ -10936,56 +10993,6 @@ __metadata:
   checksum: 8a9560e5d8f3d94dc3cf5f7b9c83490ffa30d320093560a37b88f59483040771fd1750e76b9939abfbb1b5a23fd6dfbae77f6b338abffe7cae7329cd9b9bb86b
   languageName: node
   linkType: hard
-
-"tailwind-nextjs-starter-blog@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "tailwind-nextjs-starter-blog@workspace:."
-  dependencies:
-    "@next/bundle-analyzer": 14.0.3
-    "@svgr/webpack": ^8.0.1
-    "@tailwindcss/forms": ^0.5.4
-    "@tailwindcss/typography": ^0.5.9
-    "@types/mdx": ^2.0.5
-    "@types/react": ^18.2.14
-    "@typescript-eslint/eslint-plugin": ^6.1.0
-    "@typescript-eslint/parser": ^6.1.0
-    autoprefixer: ^10.4.13
-    contentlayer: 0.3.4
-    cross-env: ^7.0.3
-    esbuild: 0.18.11
-    eslint: ^8.45.0
-    eslint-config-next: 14.0.3
-    eslint-config-prettier: ^8.8.0
-    eslint-plugin-prettier: ^5.0.0
-    github-slugger: ^1.4.0
-    gray-matter: ^4.0.2
-    husky: ^8.0.0
-    image-size: 1.0.0
-    lint-staged: ^13.0.0
-    next: 14.0.3
-    next-contentlayer: 0.3.4
-    next-themes: ^0.2.1
-    pliny: 0.1.6
-    postcss: ^8.4.24
-    prettier: ^3.0.0
-    prettier-plugin-tailwindcss: ^0.4.1
-    react: 18.2.0
-    react-dom: 18.2.0
-    reading-time: 1.5.0
-    rehype-autolink-headings: ^6.1.0
-    rehype-citation: ^1.0.2
-    rehype-katex: ^6.0.3
-    rehype-preset-minify: 6.0.0
-    rehype-prism-plus: ^1.6.0
-    rehype-slug: ^5.1.0
-    remark: ^14.0.2
-    remark-gfm: ^3.0.1
-    remark-math: ^5.1.1
-    tailwindcss: ^3.3.3
-    typescript: ^5.1.3
-    unist-util-visit: ^4.1.0
-  languageName: unknown
-  linkType: soft
 
 "tailwindcss@npm:^3.3.3":
   version: 3.3.5
