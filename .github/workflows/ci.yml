@@ -2,7 +2,7 @@ name: CI-Pipeline
 
 on:
   pull_request:
-    branches: [main]
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
@@ -32,11 +32,13 @@ jobs:
           fi
 
       - name: Setup Node
-        uses: actions/setup-node@v3
-        run: corepack enable
+        uses: actions/setup-node@v4
         with:
           node-version: '18'
           cache: ${{ steps.detect-package-manager.outputs.manager }}
+
+      - name: Enable corepack
+        run: corepack enable
 
       - name: Restore cache
         uses: actions/cache@v3
