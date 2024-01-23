@@ -10,7 +10,6 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 module.exports = () => {
   const plugins = [withContentlayer, withBundleAnalyzer]
   return {
-    basePath: '/EnablingIntelligenceBlog',
     output: 'export',
     ...plugins.reduce((acc, next) => next(acc), {
       reactStrictMode: true,
