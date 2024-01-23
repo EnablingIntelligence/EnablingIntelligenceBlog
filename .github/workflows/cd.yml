@@ -81,4 +81,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          artifact-name: static-page
+          artifact_name: static-page
