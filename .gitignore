@@ -6,3 +6,4 @@
 .contentlayer
 node_modules
 yarn-error.log
+public/search.json
