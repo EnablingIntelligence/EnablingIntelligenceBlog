@@ -3,8 +3,11 @@
 .yarn/unplugged
 .yarn/install-state.gz
 .next
+out
 .contentlayer
 node_modules
 yarn-error.log
 public/search.json
+public/feed.xml
+public/tags/*/feed.xml
 app/tag-data.json
