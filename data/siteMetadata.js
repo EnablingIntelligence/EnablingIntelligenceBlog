@@ -9,7 +9,7 @@ const siteMetadata = {
   siteUrl: 'https://www.enabling-intelligence.com',
   siteRepo: 'https://github.com/EnablingIntelligence/EnablingIntelligenceBlog',
   siteLogo: '/static/images/logo.png',
-  socialBanner: '/static/images/banner.png',
+  socialBanner: '/static/images/banner-big.png',
   email: 'contact@enabling-intelligence.com',
   github: 'https://github.com/EnablingIntelligence',
   youtube: 'https://www.youtube.com/channel/UC703ajCWfN24OexczYmR_jg',
