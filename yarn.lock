@@ -4998,7 +4998,7 @@ __metadata:
     rehype-preset-minify: 6.0.0
     rehype-prism-plus: ^1.6.0
     rehype-slug: ^5.1.0
-    remark: ^14.0.2
+    remark: ^15.0.1
     remark-gfm: ^4.0.0
     remark-math: ^5.1.1
     tailwindcss: ^3.3.3
@@ -10701,6 +10701,18 @@ __metadata:
     remark-stringify: ^10.0.0
     unified: ^10.0.0
   checksum: 36eec9668c5f5e497507fa5d396c79183265a5f7dd204a608e7f031a4f61b48f7bb5cfaec212f5614ccd1266cc4a9f8d7a59a45e95aed9876986b4c453b191be
+  languageName: node
+  linkType: hard
+
+"remark@npm:^15.0.1":
+  version: 15.0.1
+  resolution: "remark@npm:15.0.1"
+  dependencies:
+    "@types/mdast": ^4.0.0
+    remark-parse: ^11.0.0
+    remark-stringify: ^11.0.0
+    unified: ^11.0.0
+  checksum: ac7edb7f9b70c22964bbc6c5d1c038dd10e1a43ccf436fbdb55fb8c89d54f1b77190b89386063ba410fbdd086fde9dca81ef470fc8358eed1ff76a9741ae3dcc
   languageName: node
   linkType: hard
 
